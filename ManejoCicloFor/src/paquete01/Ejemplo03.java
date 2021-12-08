@@ -19,7 +19,12 @@ public class Ejemplo03 {
         int sumaAcumulacion = 0;
         
         for (int i = 10; i <= 20; i += 2) {
-            sumaAcumulacion = sumaAcumulacion + i;
+            sumaAcumulacion = sumaAcumulacion + i; //0+10=10
+                                                   //10+12=22
+                                                   //22+14=36
+                                                   //36+16=52
+                                                   //52+18=70
+                                                   //70+20=90
         }
         
         System.out.printf("%d\n", sumaAcumulacion);
